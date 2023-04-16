@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./assets./style.css" rel="stylesheet" />
+    <title>Lâmpada</title>
+  </head>
+  <body>
+    <img id="dnclogo" src="./Images/logodnc.svg" />
+    <header id="title">LÂMPADA DNC</header>
+    <main>
+      <div id="maindiv">
+        <div id="flexbox">
+          <img id="lapagada" onclick="quebrar()" src="./Images/apagada.svg" />
+        </div>
+        <div class="botoes">
+          <button id="botaoligar" type="button" name="Ligar" onclick="liga()">
+            LIGAR
+          </button>
+          <button
+            id="botaodesligar"
+            type="button"
+            name="off"
+            onclick="desligar()"
+          >
+            DESLIGAR
+          </button>
+        </div>
+      </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
